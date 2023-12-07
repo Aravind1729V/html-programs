@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="background-color: rgb(227, 221, 212); text-align: left;">
+        <form action="" method="post"> 
+   <h1>Create your Account</h1> 
+   <div style="color: red;">*required information</div>
+   <h3 style="background-color:rgb(106, 101, 93);">Basic Information</h3>
+   <fieldset>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td style="text-align: right;"><label for="email">Email<span style="color: red;"> <sup>*</sup></span></label></td>
+                <td><input type="text" name="" id="email" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="password" >password <span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="password"  id="password" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="repassword">Retype password <span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="password"  id="repassword" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="fname">First Name <span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="text" name="" id="fname" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="lname">Last Name <span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="text" name="" id="lname" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="Phone">Phone Number <span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="tel" name="" id="phone" placeholder="999-999-9999" minlength="10" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="add">Address<span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="text" name="" id="add" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="city">City<span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="text" name="" id="city" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="province">province<span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input list="province" placeholder="Alberta" required>
+                    <datalist id="province">
+                        <option value="alberta">alberta</option>
+                        <option value="goa">goa</option>
+                        <option value="hyderabad">hyderabad</option>
+
+                    </datalist> 
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="con">Country <span style="color: red;"><sup>*</sup></span></label></td>
+                <td><input type="text" name="" id="con" required></td>
+            </tr>
+        </table>
+    </form>
+   </fieldset>
+   <h3 style="background-color:rgb(106, 101, 93);">Education</h3>
+   <fieldset>
+   <form action="" method="post">
+       <table>
+        <tr>
+            <td style="text-align: right;"><label for="School">School<span style="color: red;"><sup>*</sup></span></label></td>
+            <td><input type="text" name="" id="School" required></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;"><label for="pg">Program<span style="color: red;"><sup>*</sup></span></label></td>
+            <td><input type="text" name="" id="pg" required></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;"><label for="ed">Education level<span style="color: red;"><sup>*</sup></span></label></td>
+            <td><input list="ed" placeholder="select" required>
+                <datalist id="ed">
+                <!-- <option value="select">select</option> -->
+                <option value="pg">pg</option>
+                <option value="ug">ug</option>
+            </datalist></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <fieldset>
+                    <legend><label for="Education">Education Status</label></legend>
+                    <input type="radio" name="Education" id="">Graduated <br>
+                    <input type="radio" name="Education" id="">Current Enrolled <br>
+                    <input type="radio" name="Education" id="">Did not Graduated <br>
+
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="date">Graduation Date<span style="color: red;"><sup>*</sup></span></label></td>
+            <td><input type="date" id="date"></td>
+
+        </tr>
+       </table>
+   </form>
+    </fieldset>
+    <h3 style="background-color:rgb(106, 101, 93);">Work Experience</h3>
+    <fieldset>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td style="text-align: right;"><label for="emp">Employer: </label></td>
+                    <td><input type="text" name="" id="emp"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><label for="job">Job Title: </label></td>
+                    <td><input type="text" name="" id="job"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><label for="Duty">Job Duty: </label></td>
+                    <td><textarea name="" id="Duty" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><label for="work">Worked year: </label></td>
+                    <td><input type="number" name="" id="work"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <h3 style="background-color:rgb(106, 101, 93);">Attachments:</h3>
+    <fieldset>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td style="text-align: right;"><label for="Attachments">Attachments: </label></td>
+                    <td><input type="file" id="Attachments"></td>
+                </tr>
+                <tr>
+                <td colspan="2"> <pre> <button style="background-color: red;">reset</button>   <button style="background-color: red;">apply</button></pre></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <table>
+            <form action="" method="post">
+            <tr>
+                <td><h1>My feedback form</h1></td> 
+            </tr>
+            <tr>
+                <td><ul>
+                    <li>
+                        <label for="name">NAME:</label>
+                        <input type="text" name="name" id="name">
+                    </li>
+                    <li>
+                        <label for="email">EMAIL:</label>
+                        <input type="email" name="email" id="email">
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </li>
+                    <li>
+                        please check all the emotions that apply to you:
+                        <ul type="disc">
+                            
+                            <li ><label for="checkbox">Angry</label><input type="checkbox" name="checkbox"></li>
+                            <li ><label for="checkbox">Sad</label><input type="checkbox" name="checkbox"></li>
+                            <li ><label for="checkbox">Happy</label><input type="checkbox" name="checkbox"></li>
+                            <li ><label for="checkbox">Ambivalent</label><input type="checkbox" name="checkbox"></li>
+                        </ul>
+                    </li>
+                    <li>How satisfied were you with our services?
+                        <ul type="disc"> 
+                            <li><label for="radio">Very satisfied<input type="radio" name="radio" id=""></label></li>
+                            <li><label for="radio">Satisfied<input type="radio" name="radio" id=""></label></li>
+                            <li><label for="radio">Didn't care<input type="radio" name="radio" id=""></label></li>
+                            <li><label for="radio">Dissatisfied<input type="radio" name="radio" id=""></label></li>
+                            <li><label for="radio">Very Dissatisfied<input type="radio" name="radio" id=""></label></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="comment">Further comments:</label>
+                        <input type="text" name="" id="comment">
+                    </li>
+                    <li>
+                        <label for="photo">Bio photo:</label>
+                        <input type="file" name="" id="photo">
+                    </li>
+                    <li>
+                        <!-- <label for="location">Location visited:</label>
+                        <select name="" id="location">              //IT IS NOT USED BECAUSE IT SHOWS FIRST VALUE AS DEFAULT VALUE
+                            <option value="SELECT LOCATION">SELECT LOCATION</option>
+                            <option value="HYD">HYD</option> 
+                            <option value="GWD">GWD</option>
+                            <option value="MAHABOOB NAGAR">MAHABOOB NAGAR</option>
+                            <option value="DELHI">DELHI</option>
+                        </select> -->
+                        <label for="location">LOCATION</label>
+                        <input list="location">
+                        <datalist id="location">
+                            <option value="ADHILABAD">ADHILABAD</option>
+                            <option value="HYD">HYD</option>
+                            <option value="GWD">GWD</option>
+                            <option value="MAHABOOB NAGAR">MAHABOOB NAGAR</option>
+                            <option value="DELHI">DELHI</option>
+                            <option value="JANAGAM">JANAGAM</option>
+                            <option value="WARANGAL">WARANGAL</option>
+                            <option value="WANAPARTHY">WANAPARTHY</option>
+                            <option value="NIJAMABAD">NIJAMABAD</option>
+                            <option value="RANGAREDDY">RANGAREDDY</option>
+                            <OPTIon VALUE="SANGAREDDY">SANGAREDDY</OPTIon>
+                        </datalist>
+                        
+                    </li>
+                </ul>
+            <ul><li><input type="submit"></li></ul></td>
+                </tr>
+            </form>
+          </table>
+    </fieldset>
+</body>
+</html>
